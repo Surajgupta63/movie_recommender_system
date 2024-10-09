@@ -1,7 +1,5 @@
 import pickle
-import requests
 import streamlit as st
-from bs4 import BeautifulSoup
 
 
 movies = pickle.load(open("movies_data.pkl", 'rb'))
@@ -26,6 +24,4 @@ if st.button("Recommend"):
     top_movies, movie_ids = recommend_movies(selected_movie)
 
     for i in range(len(top_movies)):
-       
-        # data = response.json()
         st.text(top_movies[i])
