@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pickle
 import requests
 import streamlit as st
@@ -30,7 +29,7 @@ if st.button("Recommend"):
        
         # data = response.json()
         st.text(top_movies[i])
-=======
+
 import pickle
 import streamlit as st
 
@@ -58,4 +57,4 @@ if st.button("Recommend"):
 
     for i in range(len(top_movies)):
         st.text(top_movies[i])
->>>>>>> 67341386c790a097a178a7e05f2fa29ac676954f
+
