@@ -1,4 +1,4 @@
 pickle
 requests
 streamlit
-bs4
+bs
