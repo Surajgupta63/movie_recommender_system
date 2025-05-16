@@ -1,7 +1,7 @@
 import pickle
 import requests
 import streamlit as st
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
 
 movies = pickle.load(open("movies_data.pkl", 'rb'))
