@@ -2,7 +2,6 @@ import pickle
 import requests
 import streamlit as st
 
-
 movies = pickle.load(open("movies_data.pkl", 'rb'))
 similarity = pickle.load(open("similarity.pkl", 'rb'))
 movie_names = movies['movie_name'].values
