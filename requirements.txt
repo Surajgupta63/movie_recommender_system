@@ -1,0 +1,4 @@
+pickle
+requests
+streamlit
+bs4
